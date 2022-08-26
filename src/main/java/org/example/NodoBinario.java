@@ -45,18 +45,27 @@ public class NodoBinario<S> {
 
     //Métodos para obtener datos del arbol
     public static int tamano(NodoBinario<String> t){
-
-        return 0;
+        if(t == null)
+            return 0;
+        else
+            return 1 + tamano(t.izquierdo) + tamano(t.derecho);
     }
 
     public static int altura(NodoBinario<String> t){
-
-        return 0;
+        if(t == null)
+            return -1;
+        else
+            return 1 + Math.max(altura(t.izquierdo), altura(t.derecho));
     }
 
     public NodoBinario<String> duplicar(){
 
-        return null;
+        NodoBinario<String> raiz = new NodoBinario<String>(element, null, null);
+        if(izquierdo != null)
+            raiz.izquierdo = izquierdo.duplicar();
+        if(derecho != null)
+            raiz.derecho = derecho.duplicar();
+        return raiz;
     }
 
     //Imprimir los arboles binarios

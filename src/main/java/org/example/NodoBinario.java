@@ -70,14 +70,27 @@ public class NodoBinario<S> {
 
     //Imprimir los arboles binarios
     public void printPreOrden(){
-
+        System.out.println(element);
+        if(izquierdo != null)
+             izquierdo.printPreOrden();
+        if(derecho != null)
+            derecho.printPreOrden();
     }
 
     public void printPostOrden(){
 
+        if(izquierdo != null)
+            izquierdo.printPostOrden();
+        if(derecho != null)
+            derecho.printPostOrden();
+        System.out.println(element);
     }
 
     public void printInOrden(){
-
+        if(izquierdo != null)
+            izquierdo.printInOrden();
+        System.out.println(element);
+        if(derecho != null)
+            derecho.printInOrden();
     }
 }

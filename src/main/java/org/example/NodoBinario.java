@@ -49,7 +49,7 @@ public class NodoBinario<S> {
         return 0;
     }
 
-    public static int altura(){
+    public static int altura(NodoBinario<String> t){
 
         return 0;
     }

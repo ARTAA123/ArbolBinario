@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="257d43fd-a726-4589-acfe-42d5a33c8180" name="Changes" comment="agregar métodos al arbol binario">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IteradorArbol.java" afterDir="false" />
+    <list default="true" id="257d43fd-a726-4589-acfe-42d5a33c8180" name="Changes" comment="agregar clase abstracta IteradorArbol">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InOrden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrdenNivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PostOrden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PreOrden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661535117147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="agregar clase abstracta IteradorArbol">
+      <created>1661535690286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661535690286</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +106,7 @@
     <MESSAGE value="Inicio proyecto arbol binario" />
     <MESSAGE value="agregar arbol binario para almacenamiento" />
     <MESSAGE value="agregar métodos al arbol binario" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregar métodos al arbol binario" />
+    <MESSAGE value="agregar clase abstracta IteradorArbol" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregar clase abstracta IteradorArbol" />
   </component>
 </project>
